@@ -1,0 +1,8 @@
+.header {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3%;
+    background: linear-gradient(90deg, rgba(0,245,50,1) 0%, rgba(249,186,91,1) 45%, rgba(228,59,59,1) 100%);
+}
