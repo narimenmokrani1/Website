@@ -12,16 +12,16 @@ function Footer(props) {
 					<a href='https://www.linkedin.com/in/narimen-mokrani-bb5a7a13b/'>
 						<LinkedInIcon
 							className='icon'
-							style={{ fontSize: 80, color: 'black' }}
+							style={{ fontSize: 60, color: 'black' }}
 						/>
 					</a>
 					<a href='https://github.com/narimenmokrani1'>
-						<GitHub style={{ fontSize: 80, color: 'black' }} />
+						<GitHub style={{ fontSize: 60, color: 'black' }} />
 					</a>
 					<a href='https://narimen-mokrani-portfolio.netlify.app/'>
-						<AccountCircle style={{ fontSize: 80, color: 'black' }} />
+						<AccountCircle style={{ fontSize: 60, color: 'black' }} />
 					</a>
-					<li className='copy-footer'>Rimel's Food &copy; 2022</li>
+					<li className='footer'>Rimel's Food &copy; 2022</li>
 				</ul>
 			</footer>
 		</div>

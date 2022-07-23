@@ -13,6 +13,9 @@ footer {
 		rgba(228, 59, 59, 0.4) 100%
 	);
 }
+.footer {
+	font-size: 20px;
+}
 
 .footer-list {
 	display: flex;
