@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { MdClose } from 'react-icons/md';
 import { FiMenu } from 'react-icons/fi';
+import style from './Navigation.css'
 function Navigation(props) {
     const [navbarOpen, setNavbarOpen] = useState(false);
     const handleToggle = () => {
@@ -17,7 +18,12 @@ function Navigation(props) {
 						/>
 					)}
 				</button>
-				<ul className={`menuNav ${navbarOpen ? ' showMenu' : ''}`}>...</ul>
+				<ul className={`menuNav ${navbarOpen ? ' showMenu' : ''}`}>
+                    <li>Login</li>
+                    <li>Food List</li>
+                    <li>Home</li>
+                    <li>About</li>
+                </ul>
 			</nav>
 		);
 }
